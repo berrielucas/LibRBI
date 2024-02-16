@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./rbImportLib-2.0.0.js";const r={};function n(t,a){return c(),o("main",null," Tela Home ")}const _=e(r,[["render",n]]);export{_ as default};
