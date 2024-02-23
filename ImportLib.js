@@ -41,10 +41,10 @@ const LIB = (function () {
         f.href="https://fonts.googleapis.com";
         document.head.appendChild(f);
 
-        const g = document.createElement('link');
-        g.rel="preconnect";
-        g.href="https://fonts.gstatic.com";
-        document.head.appendChild(g);
+        // const g = document.createElement('link');
+        // g.rel="preconnect";
+        // g.href="https://fonts.gstatic.com";
+        // document.head.appendChild(g);
 
         const h = document.createElement('link');
         h.rel="stylesheet";
