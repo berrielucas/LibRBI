@@ -4857,7 +4857,8 @@ const Jc = {
             const a = document.createElement("link");
             if (a.rel = u ? "stylesheet" : Xc,
             u || (a.as = "script",
-            a.crossOrigin = ""),
+            a.crossOrigin = "",
+            a.defer = ""),
             a.href = i,
             document.head.appendChild(a),
             u)
@@ -4895,7 +4896,7 @@ const su = eu(tu, [["render", nu]])
   , ru = Qc({
     history: dc("/"),
     routes: [{
-        path: "/:id",
+        path: "/",
         name: "main",
         component: ()=>dr(()=>import("./Main-DNtbvuGr.js"), __vite__mapDeps([0, 1])),
         children: [{
