@@ -4857,8 +4857,7 @@ const Jc = {
             const a = document.createElement("link");
             if (a.rel = u ? "stylesheet" : Xc,
             u || (a.as = "script",
-            a.crossOrigin = "",
-            a.defer = ""),
+            a.crossOrigin = ""),
             a.href = i,
             document.head.appendChild(a),
             u)
@@ -4917,7 +4916,7 @@ hs.mount("#app");
 export {Ne as F, Wc as R, eu as _, lo as a, _e as b, ol as c, wo as d, iu as e, ro as o, ou as p, tt as u, _i as w};
 function __vite__mapDeps(indexes) {
     if (!__vite__mapDeps.viteFileDeps) {
-        __vite__mapDeps.viteFileDeps = ["RBImportLib/assets/Main-DNtbvuGr.js", "RBImportLib/assets/Main-CNHLfuV-.css"]
+        __vite__mapDeps.viteFileDeps = ["assets/Main-DNtbvuGr.js", "assets/Main-CNHLfuV-.css"]
     }
     return indexes.map((i)=>__vite__mapDeps.viteFileDeps[i])
 }
