@@ -4857,7 +4857,8 @@ const Jc = {
             const a = document.createElement("link");
             if (a.rel = u ? "stylesheet" : Xc,
             u || (a.as = "script",
-            a.crossOrigin = ""),
+            a.crossOrigin = "",
+            a.defer = ""),
             a.href = i,
             document.head.appendChild(a),
             u)
