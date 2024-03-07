@@ -1,0 +1,1 @@
+import{u as s,r as a,c as o,o as n}from"./index-DbzL9b_7.js";const i={__name:"CanaisView",setup(t){s();const e=a(JSON.parse(sessionStorage.getItem("user")));return console.log("Inicio canais"),console.log(e),(c,r)=>(n(),o("h2",null,"Tela de Canais"))}};export{i as default};
