@@ -1,1 +1,0 @@
-import{_ as e,f as n,o,g as t}from"./index-DJc-2Em1.js";const c={},a=t("h1",null,"Página não encontrada",-1),s=[a];function r(_,d){return o(),n("main",null,s)}const f=e(c,[["render",r]]);export{f as default};
